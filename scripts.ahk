@@ -53,4 +53,10 @@ Return
  path:=getSelectedFilePath()
  Run, C:\Program Files (x86)\Notepad++\notepad++.exe %path%  ; save the highlited file path to the clipboard
 Return 
+;##################### SCRIPT 5; CTRL+SHIFT+UP,DOWN; VOLUME CONTROL ######################
+^+Up:: Send {Volume_Up 3}  ; Raise the master volume by 3 intervals.
+Return
+^+Down:: Send {Voulme_Down 3} ; Lower the master voulme by 3 intervals.
+Return
+
 
