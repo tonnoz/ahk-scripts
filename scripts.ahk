@@ -58,4 +58,4 @@ Return
 Return
 ^+Down:: Send {Volume_Down 3} ; Lower the master voulme by 3 intervals.
 Return
-^+Up & Down:: Send {Volume_Mute}  ; (Up and Down together) Mute/unmute the master volume.
+^+PgDn:: Send {Volume_Mute}  ; (Up and Down together) Mute/unmute the master volume.
