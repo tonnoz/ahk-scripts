@@ -56,7 +56,7 @@ Return
 ;##################### SCRIPT 5; CTRL+SHIFT+UP,DOWN; VOLUME CONTROL ######################
 ^+Up:: Send {Volume_Up 3}  ; Raise the master volume by 3 intervals.
 Return
-^+Down:: Send {Voulme_Down 3} ; Lower the master voulme by 3 intervals.
+^+Down:: Send {Volume_Down 3} ; Lower the master voulme by 3 intervals.
 Return
 
 
