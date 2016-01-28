@@ -51,11 +51,11 @@ Return
 ;###################### SCRIPT 4; CTRL+SHIFT+Q; OPEN THE SELECTED FILE WITH NOTEPAD++ ######################
  ^+q::
  path:=getSelectedFilePath()
- Run, C:\Program Files (x86)\Notepad++\notepad++.exe %path%  ; save the highlited file path to the clipboard
+ Run, C:\Program Files (x86)\Notepad++\notepad++.exe %path%
 Return 
-;##################### SCRIPT 5; CTRL+SHIFT+UP,DOWN; VOLUME CONTROL ######################
-^+Up:: Send {Volume_Up 3}  ; Raise the master volume by 3 intervals.
+;##################### SCRIPT 5; VOLUME CONTROL ######################
+^+Up:: Send {Volume_Up 3}  ; (CTRL+SHIFT+DOWN) Raise the master volume by 3 intervals.
 Return
-^+Down:: Send {Volume_Down 3} ; Lower the master voulme by 3 intervals.
+^+Down:: Send {Volume_Down 3} ; (CTRL+SHIFT+UP) Lower the master voulme by 3 intervals.
 Return
-^+PgDn:: Send {Volume_Mute}  ; (Up and Down together) Mute/unmute the master volume.
+^+PgDn:: Send {Volume_Mute}  ; (CTRL+SHIFT+PgDown) Mute/unmute the master volume.
