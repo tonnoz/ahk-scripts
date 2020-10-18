@@ -32,6 +32,10 @@ getSelectedFilePath() {   ; GetSelectedText or FilePath in Windows Explorer  by 
 	Return ToReturn
 }
 
+;###################### SCRIPT 0; WIN+W; => ALT+F4 #####################################
+#w::Send {Alt down}{F4}{Alt up}
+Return
+
 ;###################### SCRIPT 1; CTRL+SHIFT+MINUS(KEYPAD); SHUTDOWN COMPUTER ######################
 ^+NumpadSub::
 Shutdown, 5 
